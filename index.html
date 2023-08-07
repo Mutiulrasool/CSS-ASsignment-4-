@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+         background-image: url(./images.jfif);
+         background-repeat: no-repeat;
+         background-size: cover;
+        }
+        form{
+            min-width: 450px ;
+            height: auto;
+            background-color: white;
+            border: 1px solid black;
+            margin-left: 50px;
+            border-radius: 3px;
+            /* min-width: 50px;
+            min-height: 50px; */
+        }
+        .f-div{
+            display: flex;
+            align-items: start;
+            margin-top: 8%;
+        }
+        #r-p{
+             width: 80%;
+             height: 30px;
+             margin: 4% 7%;
+             border: 2px solid white;
+             border-color: black;
+             background-color: white;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+        }
+        p{
+            margin-top:10px ;
+            font-size: 32px;
+            font-weight: bolder;
+            text-align: center;
+        }
+        .f-input{
+            width: 90%;
+            height: 70%;
+            border: 1px solid white;
+            border-color:white ;
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            /* margin-top: 5% ; */
+        }
+        .icons{
+            width: 20px;
+            height: 25px;
+        }
+        .radio{
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .radiobutton{
+            display: flex;
+            justify-content: start;
+            margin-left: 23px;
+        }
+        select{
+            width: 90%;
+            height: 70%;
+            border: 1px solid white;
+            border-color:white ;
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="f-div">
+        <form action="examlpe">
+            <div><p>Registration</p></div>
+            <p id="r-p"><img src="./download.png" class="icons"><input type="text" placeholder="Name" class="f-input"></p>
+            <p id="r-p"><img src="./download.png" class="icons"><input type="text" placeholder="Name" class="f-input"></p>
+            <p id="r-p"><img src="./568148.png" class="icons" ><input type="email" placeholder="Email" class="f-input"></p>
+            <p id="r-p"> <img src="./pngtree-vector-lock-icon-png-image_1028350.jpg" class="icons"><input type="email" placeholder="Enter your Pasword" class="f-input"></p>
+            <div class="radiobutton"><p class="radio"><input type="radio" name="Male">Male
+                <input type="radio" name="Male">Female</p> </div>
+             <p id="r-p"> <select name="Country">
+                <option value="">Country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+            </select></p>
+             <p id="r-p" style="font-size: 24px; color: white; background-color: rgb(47, 1, 90);"> Signup</p>
+        </form>
+    
+    </div>
+</body>
+</html>
